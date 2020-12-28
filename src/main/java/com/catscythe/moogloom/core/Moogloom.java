@@ -44,5 +44,6 @@ public class Moogloom {
 
     private void doClientStuff(final FMLClientSetupEvent event) {
     	MoogloomEntities.registerRendering();
+        MoogloomCompat.setRenderLayers();
     }
 }
