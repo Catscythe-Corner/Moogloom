@@ -1,8 +1,0 @@
-package com.catscythe.moogloom.core.registry;
-
-public class MoogloomCompat {
-	
-	public static void setRenderLayers() {
-		RenderTypeLookup.setRenderLayer(MoogloomBlocks.NIGHTSHADE.get(), RenderType.getCutout());
-		}
-}

@@ -3,18 +3,16 @@ package com.catscythe.moogloom.core;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import com.catscythe.moogloom.common.entity.moogloom.MoogloomEntity;
+import com.catscythe.moogloom.core.other.MoogloomCompat;
 import com.catscythe.moogloom.core.registry.MoogloomEntities;
 import com.minecraftabnormals.abnormals_core.core.util.registry.RegistryHelper;
 
-import net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-
 
 @Mod("moogloom")
 public class Moogloom {
