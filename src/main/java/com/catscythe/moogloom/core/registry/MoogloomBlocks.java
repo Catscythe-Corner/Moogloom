@@ -19,5 +19,5 @@ public class MoogloomBlocks {
 	
 	public static final RegistryObject<Block> NIGHTSHADE = HELPER.createBlock("nightshade", () -> new AbnormalsFlowerBlock(MoogloomEffects.MIDNIGHT::get, 120, Block.Properties.from(Blocks.POPPY)), ItemGroup.DECORATIONS);
 	public static final RegistryObject<Block> POTTED_NIGHTSHADE = HELPER.createBlockNoItem("potted_nightshade", () -> new FlowerPotBlock(NIGHTSHADE.get(), Block.Properties.from(Blocks.FLOWER_POT)));
-	
+
 }

@@ -6,6 +6,7 @@ import org.apache.logging.log4j.Logger;
 import com.catscythe.moogloom.core.registry.MoogloomEntities;
 import com.minecraftabnormals.abnormals_core.core.util.registry.RegistryHelper;
 
+import net.minecraft.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
