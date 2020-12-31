@@ -1,5 +1,8 @@
 {
   "block.moogloom.nightshade": "Nachtschatten",
+  "block.moogloom.potted_nightshade": "Eingetopfter Nachtschatten",
   
-  "item.moogloom.moogloom_spawn_egg": "Moogloom-Spawn-Ei"
+  "item.moogloom.moogloom_spawn_egg": "Moogloom-Spawn-Ei",
+  
+  "entity.moogloom.moogloom": "Moogloom"
 }
