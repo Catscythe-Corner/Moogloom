@@ -3,6 +3,7 @@ package com.catscythe.moogloom.core;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import com.catscythe.moogloom.core.other.MoogloomCompat;
 import com.catscythe.moogloom.core.registry.MoogloomEntities;
 import com.minecraftabnormals.abnormals_core.core.util.registry.RegistryHelper;
 
@@ -41,6 +42,8 @@ public class Moogloom {
     }
 
     private void doClientStuff(final FMLClientSetupEvent event) {
-    	MoogloomEntities.registerRendering();
+    	event.enqueueWork(() -> {
+    		MoogloomCompat.registerBlockRenderers();
+    	});
     }
 }
