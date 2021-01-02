@@ -1,4 +1,4 @@
-package com.catscythe.moogloom.common.entity.moogloom;
+package com.catscythe.moogloom.common.entities.moogloom;
 
 import javax.annotation.Nullable;
 

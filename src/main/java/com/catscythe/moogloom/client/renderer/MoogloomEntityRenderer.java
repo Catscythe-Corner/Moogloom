@@ -1,6 +1,6 @@
 package com.catscythe.moogloom.client.renderer;
 
-import com.catscythe.moogloom.common.entity.moogloom.MoogloomEntity;
+import com.catscythe.moogloom.common.entities.moogloom.MoogloomEntity;
 import com.catscythe.moogloom.core.Moogloom;
 
 import net.minecraft.client.renderer.entity.EntityRendererManager;

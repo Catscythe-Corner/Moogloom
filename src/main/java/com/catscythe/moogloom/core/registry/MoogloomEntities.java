@@ -1,7 +1,7 @@
 package com.catscythe.moogloom.core.registry;
 
 import com.catscythe.moogloom.client.renderer.MoogloomEntityRenderer;
-import com.catscythe.moogloom.common.entity.moogloom.MoogloomEntity;
+import com.catscythe.moogloom.common.entities.moogloom.MoogloomEntity;
 import com.catscythe.moogloom.core.Moogloom;
 import com.minecraftabnormals.abnormals_core.core.util.registry.EntitySubRegistryHelper;
 
