@@ -13,6 +13,6 @@ public class MoogloomItems {
 
 	public static final ItemSubRegistryHelper HELPER = Moogloom.REGISTRY_HELPER.getItemSubHelper();
 	
-	public static final RegistryObject<AbnormalsSpawnEggItem> MOOGLOOM_SPAWN_EGG = HELPER.createSpawnEggItem("moogloom", () -> MoogloomEntities.MOOGLOOM.get(), 0xFFFFFF, 0x000000);
+	public static final RegistryObject<AbnormalsSpawnEggItem> MOOGLOOM_SPAWN_EGG = HELPER.createSpawnEggItem("moogloom", () -> MoogloomEntities.MOOGLOOM.get(), 0x523CB1, 0xBD89E3);
 	
 }

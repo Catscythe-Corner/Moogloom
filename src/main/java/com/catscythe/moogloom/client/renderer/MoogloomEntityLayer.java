@@ -19,7 +19,6 @@ public class MoogloomEntityLayer<T extends MoogloomEntity> extends LayerRenderer
 			float limbSwing, float limbSwingAmount, float partialTicks, float ageInTicks, float netHeadYaw,
 			float headPitch) {
 		
-		
 	}
 
 }
