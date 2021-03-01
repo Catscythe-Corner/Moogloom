@@ -11,7 +11,8 @@ import net.minecraft.util.ResourceLocation;
 public class MoogloomEntityRenderer extends MobRenderer<MoogloomEntity, CowModel<MoogloomEntity>> {
 
 	public MoogloomEntityRenderer(EntityRendererManager rendererManagerIn) {
-		super(rendererManagerIn, new CowModel<MoogloomEntity>(), 0.7F);
+		super(rendererManagerIn, new CowModel<>(), 0.7F);
+		this.addLayer(new MoogloomEntityLayer<>(this));
 	}
 	
 	@Override
