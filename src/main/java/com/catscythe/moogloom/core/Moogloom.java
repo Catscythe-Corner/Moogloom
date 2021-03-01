@@ -43,6 +43,7 @@ public class Moogloom {
     private void doClientStuff(final FMLClientSetupEvent event) {
     	event.enqueueWork(() -> {
     		MoogloomCompat.registerBlockRenderers();
+    		MoogloomEntities.registerRendering();
     	});
     }
 }
